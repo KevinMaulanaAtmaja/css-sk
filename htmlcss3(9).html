@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <style>
+
+    /* Font face */
+    @font-face {
+      font-family: nama; /*nama fontnya*/
+      src: url(sansation_light.woff);
+    }
+
+     div{
+       font-family: 'Oswald', sans-serif;
+       width: 150px;
+       height: 150px;
+       background: yellow;
+       overflow-y: scroll;
+       /*resize: vertical;*/
+       resize: both;
+       opacity: 0.5;
+       }
+
+       img{
+         opacity: 0.5;
+         transition: opacity 3s;
+       }
+
+       img:hover{
+         opacity: 1;
+
+       }
+
+    </style>
+  </head>
+  <body>
+
+
+    <h1> Overflow,Resize dan Opacity </h1>
+    <div>
+      Awal dari masa pemerintahan di era Orde Baru muncul
+      setelah dikeluarkannya surat perintah yang berlaku selama kurang lebih 32 tahun pada 11 Maret 1966 hingga 1988.
+      Diangkatnya Soeharto menjadi Presiden Indonesia juga menandakan era Orde Baru
+      menggantikan Presiden Soekarno sebelumnya.
+    </div>
+
+    <img src="supersemar1.jpg" width="400">
+
+  <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>

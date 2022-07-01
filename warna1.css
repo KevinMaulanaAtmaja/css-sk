@@ -1,0 +1,46 @@
+h1, h2{
+color:red;
+margin: 10px 30px;
+}
+
+/*div a{
+  position: inherit;
+  background: yellow;
+}*/
+
+/*div > a{
+  background:red;
+}*/
+
+/*div + div{
+  background:green;
+}*/
+
+/*div ~ p{
+  background:blue;
+}*/
+
+h1:hover{
+  color:black;
+}
+
+h1:hover + h2{
+  color:green;
+}
+
+/*div:hover > a{
+  color:pink;
+}*/
+
+div:hover a{
+  color:yellow;
+}
+
+input:focus{
+  background: green;
+}
+
+select:focus, textarea:focus{
+  background: grey;
+  cursor:pointer;
+}

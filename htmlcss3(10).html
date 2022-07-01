@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+
+    <style>
+     body :not(h1, input){
+       color: red;
+       }
+
+       p:first-child{
+         color: blue;
+         font-weight: bold;
+       }
+
+       p:last-child{
+         background: aqua;
+       }
+
+       p:only-child{
+         background: yellow;
+       }
+
+      /* ul:nth-child(2){
+         background: aqua;
+         text-decoration: line-through;
+       }*/
+
+       ul :nth-child(odd){
+         text-decoration: underline;
+       }
+
+       ul :nth-child(even){
+         text-decoration: line-through;
+       }
+
+       /*ul :nth-child(an+b)*/
+       ul :nth-child(3n+2){
+         background: aqua;
+       }
+
+
+       input:checked{
+         width: 30px;
+       }
+
+       /*enabled, disabled, invalid*/
+
+       input:enabled{
+         border: 3px solid blue;
+       }
+
+       input:disabled{
+         border: 3px solid red;
+       }
+
+       input:invalid{
+         background: grey;
+         color: lightgreen;
+         text-decoration: underline;
+       }
+
+    </style>
+  </head>
+  <body>
+
+    <h1> Selektor - Pseudo Classes </h1>
+
+    <div>
+      <p> paragraf atas </p>
+    </div>
+
+    <div>
+      <span> Span pertama </span>
+      <p> paragraf span pertama </p>
+    </div>
+
+    <div>
+      <p> paragraf pertama </p>
+      <p> paragraf kedua </p>
+      <p> paragraf ketiga </p>
+    </div>
+
+    <h1> Nth Child </h1>
+    <ul>
+      <li> list pertama </li>
+      <li> list kedua </li>
+      <li> list ketiga </li>
+      <li> list keempat </li>
+      <li> list kelima </li>
+      <li> list keenam </li>
+      <li> list ketujuh </li>
+      <li> list kedelapan </li>
+      <li> list kesembilan </li>
+      <li> list kesepuluh </li>
+      <li> list kesebelas </li>
+      <li> list keduabelas </li>
+    </ul>
+
+    <h1> Input </h1>
+
+    <input type="checkbox" checked> Male
+    <input type="checkbox"> Female
+    <br> <br>
+
+    <input type="text" placeholder="nama lengkap">
+    <input type="text" placeholder="nama pendek">
+    <input type="text" placeholder="kota asal" disabled>
+    <input type="email" placeholder="email">
+
+
+  <br> <br> <br> <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>

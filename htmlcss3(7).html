@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+
+    <style>
+    body{
+      margin-bottom: 500px;
+      margin-left: 50px;
+    }
+
+     div{
+       background: red;
+       width: 250px;
+       height: 250px;
+       animation-name: animasi;
+       animation-duration: 5s;
+
+       animation-iteration-count: 2;
+       /*animation-direction: reverse;
+       /*animation-direction: alternate;*/
+
+       /*animation-delay: 2s;
+       /* fill: nentuin berhenti di kondisis akhir */
+       animation-fill-mode: forwards;
+       /* timing-function: */
+       animation-timing-function: ease-in-out;
+       /* play-state: */
+       animation-play-state: paused;
+     }
+
+     div:hover{
+       animation-play-state: running;
+     }
+
+    /* @keyframes animasi{
+       from{ background: red;}
+       to  { background: blue;}
+     }*/
+
+     @keyframes animasi{
+       0% { background: red; width: 250px; height: 250px;}
+       25%  { background: yellow; }
+       50%  { background: green; width: 200px; height: 200px;}
+       75%  { background: aqua; }
+       100%  { background: blue; width: 150px; height: 150px;}
+     }
+
+
+    </style>
+  </head>
+  <body>
+
+
+  <h1> Animation </h1>
+    <div>  </div>
+
+  <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>

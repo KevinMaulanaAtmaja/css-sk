@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+
+
+    <style>
+      #kotak{
+        height: 100px;
+        width: 100px;
+        background: blue;
+        border-radius: 30px;
+      }
+
+      #kotak1{
+        height: 100px;
+        width: 100px;
+        background: grey;
+        border-radius: 50%;
+      }
+
+      #kotak3{
+        height: 100px;
+        width: 100px;
+        background: yellow;
+        /*box-shadow: horizontal vertical blur spread color*/
+        box-shadow: 5px 10px 5px 7px black;
+      }
+
+      /*Box Sizing & vendor prefix*/
+
+      #kotak4{
+        height: 100px;
+        width: 100px;
+        background: pink;
+        padding: 10px;
+        border: 5px solid black;
+        box-sizing: border-box;
+
+        /*jiksA versi browser tdk support */
+        /*vendor prefix*/
+        -webkit- box-sizing : border-box; /*utk  safari & chrome */
+        -moz- box-sizing    : border-box; /*utk firefox */
+        -o- box-sizing      : border-box; /*utk opera */
+        -ms- box-sizing     : border-box; /*utk internet explorer */
+      }
+
+      #kotak5{
+        height: 100px;
+        width: 100px;
+        background: green;
+
+      }
+    </style>
+
+  </head>
+
+ <body>
+
+
+  <h1> Border Radius </h1>
+  <div id="kotak"></div> <br>
+  <div id="kotak1"></div> <br>
+
+  <h1> Box Shadow </h1>
+  <div id="kotak3"></div> <br>
+
+  <h1> Box Sizing </h1>
+  <div id="kotak4"></div> <br>
+  <div id="kotak5"></div> <br>
+
+  <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>

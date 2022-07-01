@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+
+    <style>
+    div{
+      width: 100px; height: 100px; margin-bottom: 5px;
+    }
+
+      #div0{
+        perspective: 100px;
+        perspective-origin: 59% 40%;
+      }
+
+      #div1{
+        background: blue;
+        transform: rotateX(150deg);
+      }
+
+      #div2{
+        perspective: 100px;
+        perspective-origin: 29% 20%;
+      }
+
+      #div3{
+        background: red;
+        transform: rotateX(150deg);
+      }
+
+    </style>
+
+  </head>
+
+ <body>
+
+   <!--
+   efek hanya pada 3D elemen
+   Efek pada child bukan elemen sendiri
+    -->
+
+
+  <h1> Perspektive </h1>
+  <div id="div0">
+    <div id="div1"> </div>
+  </div>
+
+  <div id="div2">
+    <div id="div3"> </div>
+  </div>
+
+  <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>

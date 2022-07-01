@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+
+    <style>
+    body{
+      margin-bottom: 500px;
+      margin-left: 50px;
+      font-size: 50px;
+      color: black;
+    }
+
+     #kotak{
+       perspective: 700px;
+     }
+
+
+      #kartu{
+        position: relative;
+        height: 200px; width: 200px;
+        transition: transform 4s;
+        border: 5px solid black;
+        transform-style: preserve-3d;
+      }
+
+      #depan, #belakang{
+        text-align: center;
+        position: absolute;
+        top: 0px; left: 0px;
+        height: 200px; width: 200px;
+        backface-visibility: hidden;
+      }
+
+      #depan{
+        background: blue;
+      }
+
+      #belakang{
+        background: aqua;
+        transform: rotateY(180deg);
+      }
+
+      #kartu:hover{
+        transform: rotateY(180deg);
+      }
+
+    </style>
+  </head>
+  <body>
+
+
+  <h1> Flipcard 3D </h1>
+  <div id="kotak">
+    <div id="kartu">
+    <div id="depan"> Depan </div>
+    <div id="belakang"> Belakang </div>
+    </div>
+  </div>
+
+  <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>

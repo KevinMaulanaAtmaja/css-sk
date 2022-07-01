@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+
+    <style>
+      div{
+        width: 100px; height: 100px; background: blue; margin-bottom: 5px;
+        /*transform: translate(sumbu X, sumbu Y);*/
+         transition: width 10s, background 1s, height 22s;
+      }
+
+      #div2, #div3:hover{
+        width: 5s;
+      }
+
+      #div:hover{
+        width: 200px; height: 120px;
+      }
+
+      #div1:hover{
+        background:  green;
+      }
+
+      #div1:hover{
+        transition-delay: 3s;
+        background:  green;
+      }
+
+      #div2:hover{
+        transition-timing-function: ease-in-out;
+        background:  green;
+        width: 200px;
+      }
+
+      #div3:hover{
+        transition-timing-function: ease-out;
+        height: 200px;
+        background:  red;
+      }
+
+    </style>
+
+  </head>
+
+ <body>
+
+
+  <h1> Transition </h1>
+  <div id="div"> </div>
+
+  <div id="div1"> </div>
+
+  <div id="div2"> </div>
+
+  <div id="div3"> </div>
+
+  <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>

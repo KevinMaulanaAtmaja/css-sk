@@ -1,0 +1,220 @@
+/*eps2*/
+h2{
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*eps3*/
+.link_web{
+  background: white;
+}
+
+#link_web1{
+  background: yellow;
+
+}
+
+
+/*eps4*/
+#header{
+  background-color: rgb(55,6,218);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*eps5*/
+body{
+  background-color: grey;
+  background-image: url("anak mark zuckerberg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+/*body{
+
+  background: url("gambar koding/punchline.png") no-repeat fixed left;
+}*/
+/*
+cara komentardi css
+*/
+
+/*eps6*/
+#text{
+  text-align: center;
+  text-indent: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  word-spacing: 3px;
+  /*visibility: hidden;*/
+  display:none;
+}
+
+#menu_wrap{
+  /*margin: top right bottom left;*/
+  margin: 10px 0 50px 0;
+}
+
+.menu{
+  display:inline-block;
+  /*height: 50px;
+  width: 100px;*/
+  text-decoration: none;
+
+  /*border-width: 5px;
+  border-style: solid;
+  border-color: black;*/
+
+  border: 5px solid black;
+  padding: 10px 5px;
+}
+
+/*eps7*/
+#text_1{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+/*eps8*/
+/*kondisi biasa*/
+.menu:link{
+  background: white;
+  color:yellow;
+
+}
+/*kondisi setelah dikunjungi*/
+.menu:visited{
+  background: aqua;
+}
+/*kondisi hover-berada diatasnya*/
+.menu:hover{
+  background: green;
+}
+/*kondisi di klik*/
+.menu:active{
+  background: white;
+}
+
+
+/*eps9*/
+/*
+#header1{
+  background: blue;
+  width: 50%;
+  height: 200px;
+  max-width: 25%;
+  min-height: 450px;
+}
+
+#header2{
+    background: orange;
+    color: purple;
+    display: inline-block;
+    height: 100px;
+    width: 25%;
+}
+
+#header3{
+    color: red;
+    display: inline;
+}
+
+#header4{
+    color: blue;
+    display: block;
+}
+
+#header5{
+  background: orange;
+
+}*/
+
+
+/*mengatur posisi di css*/
+/*static, relative, absolute, fixed*/
+/*
+#menu_learning{
+  position: relative;
+  top: 500px;
+  left: 400px;
+}
+
+#header_1{
+  position: absolute;
+  top: 70px;
+  left: 250px;
+}
+
+#linkfb{
+  background: red;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+#linktw{
+  background: red;
+  position: fixed;
+  top: 50px;
+  left: 200px;
+}
+
+#parent_1{
+  position: relative;
+  top: 100px;
+}
+
+#header_2{
+  background: red;
+  position: absolute;
+  top: 140px;
+  left: 40px;
+  z-index: +1;
+}
+
+#parent_2{
+  position: relative;
+  top: 100px;
+}
+
+#header_3{
+  background: yellow;
+  position: fixed;
+  top: 100px;
+  left: 240px;
+  z-index: +1;
+}
+
+#header_4{
+  background: yellow;
+  position: absolute;
+  top: 150px;
+  left: 240px;
+  z-index: -1;
+}*/
+
+table{
+  float:right;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+/* utk menghilangkan efek float ke elemen brktnya */
+#div_1{
+  margin:  20px;
+  clear: both;
+}
+
+ul,ol,dl{
+  float:left;
+  margin: 0px;
+  padding: 0px;
+  width: 50%;
+}
+
+#copyright{
+  clear: both;
+  text-align: center;
+}

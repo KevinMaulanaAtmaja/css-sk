@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Belajar CSS 3 </title>
+
+    <style>
+    div{
+      width: 100px; height: 100px; margin-bottom: 5px;
+    }
+
+      #div0{
+        perspective: 100px;
+        perspective-origin: 56% 40%;
+      }
+
+      #div1{
+        background: blue;
+        transform: rotateX(150deg);
+      }
+
+
+      #div2{
+        perspective: 100px;
+        perspective-origin: 29% 20%;
+      }
+
+      #div3{
+        background: red;
+        transform: translateZ(1px) rotateX(35deg);
+        transition:  transform 2s;
+      }
+
+      #div3:hover{
+        transform: translateZ(10px) rotateX(10deg);
+      }
+
+
+      #div4, #div6{
+        perspective: 100px;
+        perspective-origin: 29% 20%;
+      }
+
+      #div5{
+        background: aqua;
+        transform: translateZ(1px) rotateZ(35deg);
+        transition:  transform 2s;
+      }
+
+      #div5:hover{
+        transform: translateZ(10px) rotateZ(10deg);
+      }
+
+      #div10{
+        background: green;
+        transform: translateZ(1px) rotateY(35deg);
+        transition:  transform 2s;
+      }
+
+      #div10:hover{
+        transform: translateZ(10px) rotateY(10deg);
+      }
+
+
+      #div7{
+        background: blue;
+        transform: scaleZ(1) rotateY(35deg);
+        transition:  transform 2s;
+        border: 2px solid black;
+      }
+
+      #div7:hover{
+        transform: scaleZ(1.5) rotateY(35deg);
+      }
+
+
+      #div8{
+        background: yellow;
+        transform: scaleY(1) rotateY(35deg);
+        transition:  transform 2s;
+        border: 2px solid black;
+      }
+
+      #div8:hover{
+        transform: scaleY(1.5) rotateY(35deg);
+      }
+
+      #div9{
+        background: yellow;
+        transform: scaleX(1) rotateY(35deg);
+        transition:  transform 2s;
+        border: 2px solid black;
+      }
+
+      #div9:hover{
+        transform: scaleX(1.5) rotateY(35deg);
+      }
+
+
+    </style>
+  </head>
+ <body>
+
+   <!--
+   efek hanya pada 3D elemen
+   Efek pada child bukan elemen sendiri
+    -->
+
+
+  <h1> Perspective </h1>
+  <div id="div0">
+    <div id="div1"> Perspective </div>
+  </div>
+
+  <h1> Translate & Rotate 3D </h1>
+  <div id="div2">
+    <div id="div3"> Translate sumbu Z, Rotate sumbu X </div>
+  </div>
+   <br> <br>
+
+  <h1> Translate & Rotate 3D </h1>
+  <div id="div4">
+    <div id="div5"> Translate sumbu Z, Rotate sumbu Z </div>
+    <div id="div10"> Translate sumbu Z, Rotate sumbu Y </div>
+  </div> <br> <br> <br> <br> <br> <br>
+
+  <h1> Scale 3D </h1>
+  <h2> Translate sumbu Y, Rotate sumbu Y </h2>
+  <div id="div6">
+    <div id="div7"> Scale Z </div>
+    <div id="div8"> Scale Y </div>
+    <div id="div9"> Scale X </div>
+  </div>
+
+  <br>
+  &copy; inisial &#8490;
+
+</body>
+</html>
