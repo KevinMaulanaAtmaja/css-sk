@@ -1,2 +1,2 @@
-# CSS-ku
-belajar CSS dasar
+# CSS3-ku
+belajar CSS 3
